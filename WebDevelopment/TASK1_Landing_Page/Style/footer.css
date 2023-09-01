@@ -1,0 +1,267 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .footUp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+footer .footUp .left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+footer .footUp .left h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+footer .footUp .left .box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+footer .footUp .left .box .sliderBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer .footUp .left .box .sliderBar #dots1,
+#dots2,
+#dots3 {
+  width: 70px;
+  height: 4px;
+  /* background-color: #ffa41b; */
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  cursor: pointer;
+}
+
+footer .footUp .left .box #textBox1 {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  transition: opacity 0.5s ease;
+  margin: 10px 0;
+}
+
+footer .footUp .left .box #textBox1 h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(54, 54, 54);
+  letter-spacing: 1px;
+  margin: 8px 0;
+}
+
+footer .footUp .left .box #textBox1 p {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 25px;
+  color: rgb(119, 119, 119);
+  letter-spacing: 0.5px;
+  margin: 10px 0;
+}
+
+footer .footUp .left .firstBtn {
+  background: linear-gradient(to right, #ff9224, #fc5871, #e60ca1);
+  border-style: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer .footUp .right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+footer .footUp .right img {
+  width: 300px;
+  z-index: 1;
+}
+
+footer .footUp .right .barBox {
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  border: 5px inset #ff9224;
+  bottom: 0;
+  z-index: 0.5;
+}
+
+footer .footDown {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+  background: url("../Images/map.jpg") no-repeat;
+  background-size: cover;
+}
+
+footer .footDown h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  margin: 20px 0 10px 0;
+}
+
+footer .footDown .bar {
+  width: 200px;
+  height: 2px;
+  background: linear-gradient(to right, #fd9f42, #e57686, #df4aaf);
+}
+
+footer .footDown .imgBar1 {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0;
+}
+
+footer .footDown .imgBar1 .img1 {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+footer .footDown .imgBar1 .img1 img {
+  width: 300px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+footer .footDown .imgBar1 .img1 .hg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0px;
+  bottom: -20px;
+  background-color: white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  cursor: pointer;
+}
+
+footer .footDown .imgBar1 .img1 .hg img {
+  width: 22px;
+  height: 22px;
+  padding: 12px;
+  background: linear-gradient(to right, #fd9f42, #e57686, #df4aaf);
+  border-radius: 100%;
+}
+
+footer .footDown .imgBar1 .img1 .hg h5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  margin: 5px 15px;
+}
+
+@media only screen and (max-width: 1265px) {
+  footer .footUp {
+    flex-direction: column;
+  }
+
+  footer .footUp .left,
+  footer .footUp .right {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  footer .footDown .imgBar1 .img1 img {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 997px) {
+  footer .footDown .imgBar1 .img1 {
+    margin: 20px 0;
+  }
+
+  footer .footDown .imgBar1 {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 692px) {
+  footer .footUp .left {
+    margin: 20px 0;
+  }
+
+  footer .footUp .left .box #textBox1 {
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 482px) {
+  footer .footUp .right img {
+    width: 80%;
+  }
+
+  footer .footUp .right .barBox {
+    width: 95%;
+  }
+
+  footer .footUp .left .box .sliderBar #dots1,
+  #dots2,
+  #dots3 {
+    width: 25%;
+  }
+}

@@ -1,0 +1,142 @@
+header nav .fixedBar{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999;
+    background: whitesmoke;
+    bottom: 0;
+    left: 0;
+  }
+  
+  header nav .fixedBar .innerLeftUpperNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #fd9f42, #e57686, #df4aaf);
+  }
+  
+  header nav .fixedBar .innerLeftUpperNav .social {
+    width: 20px;
+    border-right: 1.5px solid white;
+    padding: 12px 10px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+  
+  header nav .fixedBar .innerLeftUpperNav .social:nth-child(1):hover {
+    background-color: #0e91c5;
+  }
+  
+  header nav .fixedBar .innerLeftUpperNav .social:nth-child(2):hover {
+    background-color: rgb(116, 3, 3);
+  }
+  
+  header nav .fixedBar .innerLeftUpperNav .social:nth-child(3):hover {
+    background-color: #006eff;
+  }
+  
+  header nav .fixedBar .innerLeftUpperNav .social:nth-child(4):hover {
+    background-color: #ff0000;
+  }
+  
+  header nav .fixedBar .innerLeftUpperNav .social:nth-child(5):hover {
+    background-color: #ff2600;
+  }
+  
+  header nav .fixedBar .innerLeftUpperNav .social:nth-child(6):hover {
+    background-color: #0084ff;
+  }
+  
+  header nav .fixedBar .innerMiddleUpperNav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #412102;
+    padding: 10px 0;
+  }
+  
+  header nav .fixedBar .innerMiddleUpperNav hr {
+    width: 80%;
+    height: 1px;
+    border: 0;
+    background-color: white;
+    margin: 5px 0;
+  }
+  
+  header nav .fixedBar .innerMiddleUpperNav .innerUpperDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header nav .fixedBar .innerMiddleUpperNav .innerUpperDetails .social {
+    width: 20px;
+    color: white;
+    padding: 0 5px 0 0;
+  }
+  
+  header nav .fixedBar .innerMiddleUpperNav .innerUpperDetails {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+  }
+  
+  header nav .fixedBar .innerMiddleUpperNav .innerUpperDetails a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header nav .fixedBar .list,
+  header nav .fixedBar .list ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  header nav .fixedBar .list ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 20px 0px;
+    transition: 0.2s linear;
+  }
+  
+  header nav .fixedBar .list ul li:nth-child(2n){
+    background-color: rgb(20, 20, 20);
+    color: white;
+  }
+  
+  header nav .fixedBar .list ul li:nth-child(odd):hover{
+    background-color: rgb(226, 160, 17);
+  }
+  
+  header nav .fixedBar button {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border-style: none;
+    padding: 5px 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1.5px solid rgb(61, 61, 61);
+    cursor: pointer;
+    transition: 0.1s linear;
+    background-color: #f106a7;
+  }

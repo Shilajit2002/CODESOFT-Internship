@@ -1,0 +1,237 @@
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main .creativity {
+  width: 100%;
+  padding: 20px 0px;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(26, 26, 26, 0.712), rgba(26, 26, 26, 0.712)),
+    url("../Images/wallpaper.jpg") no-repeat;
+  background-size: 100% 100vh;
+}
+
+main .creativity .bar {
+  width: 5.5px;
+  height: 250px;
+  background: linear-gradient(to bottom, #ff9021, #ec5f74, #f106a7);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 10px;
+}
+
+main .creativity .innerCreativity {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+main .creativity .innerCreativity h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: rgba(245, 245, 245, 0.712);
+  letter-spacing: 3px;
+  margin: 0 5px;
+  padding: 0;
+}
+
+main .creativity .innerCreativity .slider {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0px 0px;
+}
+
+main .creativity .innerCreativity .slider #textBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  transition: opacity 0.5s ease;
+}
+
+main .creativity .innerCreativity .slider #textBox h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgba(245, 245, 245, 0.815);
+  letter-spacing: 1px;
+  margin: 5px;
+  padding: 0;
+}
+
+main .creativity .innerCreativity .slider #textBox p {
+  font-family: sans-serif;
+  font-size: 15.5px;
+  line-height: 25px;
+  font-weight: lighter;
+  color: rgb(245, 245, 245);
+  letter-spacing: 1px;
+  margin: 5px;
+}
+
+main .creativity .innerCreativity .btnGrp {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 5px;
+}
+
+main .creativity .innerCreativity .btnGrp .firstBtn {
+  background: linear-gradient(to right, #ff9224, #fc5871, #e60ca1);
+  border-style: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+main .creativity .innerCreativity .btnGrp .secondBtn {
+  background: transparent;
+  border-style: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid white;
+  transition: 0.4s ease;
+}
+
+main .creativity .innerCreativity .btnGrp .secondBtn:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+main .creativity .innerCreativity .sliderBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+main .creativity .innerCreativity .sliderBar #dot1,
+#dot2,
+#dot3 {
+  width: 4px;
+  height: 45px;
+  /* background-color: #ffa41b; */
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  cursor: pointer;
+}
+
+main .creativeBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(to right, #fd9f42, #e57686, #df4aaf);
+}
+
+main .creativeBar .parasBar {
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 55px 0;
+}
+
+main .creativeBar .parasBar .innerParas {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main .creativeBar .parasBar .innerParas img {
+  width: 20px;
+  border-radius: 100%;
+  border: 2px solid white;
+  padding: 7px;
+  margin-right: 30px;
+}
+
+main .creativeBar .parasBar .innerParas h4 {
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+main .creativeBar .parasBar p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  letter-spacing: 0.5px;
+  margin: 5px 0;
+}
+
+
+@media only screen and (max-width:651px) {
+  main .creativeBar{
+    flex-direction: column;
+  }
+
+  main .creativeBar .parasBar {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width:1052px) {
+  main .creativity .innerCreativity {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width:813px) {
+  main .creativity .innerCreativity .slider {
+    height: fit-content;
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width:272px) {
+  main .creativity .bar{
+    display: none;
+  }
+}
+
+
+

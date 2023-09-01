@@ -1,0 +1,242 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header nav .upperNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(to right, #fd9f42, #e57686, #df4aaf);
+}
+
+header nav .upperNav .innerLeftUpperNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .upperNav .innerLeftUpperNav .social {
+  width: 20px;
+  border-right: 1.5px solid white;
+  padding: 12px 10px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+header nav .upperNav .innerMiddleUpperNav {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .upperNav .innerMiddleUpperNav hr {
+  width: 1px;
+  height: 20px;
+  background-color: white;
+  border: none;
+  margin: 0 15px;
+}
+
+header nav .upperNav .innerMiddleUpperNav .innerUpperDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .upperNav .innerMiddleUpperNav .innerUpperDetails .social {
+  width: 20px;
+  color: white;
+  padding: 0 5px 0 0;
+}
+
+header nav .upperNav .innerMiddleUpperNav .innerUpperDetails {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+
+header nav .upperNav .innerMiddleUpperNav .innerUpperDetails a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav .upperNav .innerRightUpperNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .upperNav .innerRightUpperNav button {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  border-style: none;
+  padding: 3px 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1.5px solid white;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+
+header nav .upperNav .innerRightUpperNav button:hover {
+  background-color: white;
+  color: #df4aaf;
+}
+
+header nav .upperNav .innerLeftUpperNav .social:nth-child(1):hover {
+  background-color: #0e91c5;
+}
+
+header nav .upperNav .innerLeftUpperNav .social:nth-child(2):hover {
+  background-color: rgb(116, 3, 3);
+}
+
+header nav .upperNav .innerLeftUpperNav .social:nth-child(3):hover {
+  background-color: #006eff;
+}
+
+header nav .upperNav .innerLeftUpperNav .social:nth-child(4):hover {
+  background-color: #ff0000;
+}
+
+header nav .upperNav .innerLeftUpperNav .social:nth-child(5):hover {
+  background-color: #ff2600;
+}
+
+header nav .upperNav .innerLeftUpperNav .social:nth-child(6):hover {
+  background-color: #0084ff;
+}
+
+header nav .lowerNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+}
+
+header nav .lowerNav .menubar{
+  display: none;
+  width: 25px;
+  cursor: pointer;
+}
+
+header nav .lowerNav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+
+header nav .lowerNav .logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+header nav .lowerNav .list,
+header nav .lowerNav .list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .lowerNav .list ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+  padding: 19.5px 10px;
+  cursor: pointer;
+}
+
+header nav .lowerNav .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header nav .lowerNav .search img {
+  width: 20px;
+  padding: 20px 5px;
+  background-color: black;
+  cursor: pointer;
+}
+
+header nav .lowerNav .search #searchText {
+  position: absolute;
+  bottom: -40px;
+  border-style: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #f106a7;
+  display: none;
+}
+
+header nav .lowerNav .search #searchText:focus {
+  outline: none;
+}
+
+header nav .lowerNav .list ul li:hover {
+  background-color: #fd9f42;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+@media only screen and (max-width:902px) {
+  header nav .upperNav{
+    display: none;
+  }
+
+  header nav .lowerNav{
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  }
+
+  header nav .lowerNav .logo{
+    margin: 10px;
+  }
+
+  header nav .lowerNav .menubar{
+    display: block;
+    margin: 10px;
+  }
+
+  header nav .lowerNav .list{
+    display: none;
+  }
+
+  header nav .lowerNav .search{
+    display: none;
+  }
+}
